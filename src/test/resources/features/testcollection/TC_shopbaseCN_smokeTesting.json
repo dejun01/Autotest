@@ -1,0 +1,26 @@
+[
+  {
+    "environment": "sbase_smoke_balance_cn",
+    "features": [
+      "src/test/resources/features/smoketest/cn/billing/Balance.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_checkout_spay_paypal_cn",
+    "features": [
+      "src/test/resources/features/smoketest/cn/checkout/CheckoutViaPaypalStandard.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_checkout_stripe_paypal_cn",
+    "features": [
+      "src/test/resources/features/smoketest/cn/checkout/CheckoutViaStripe.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_product_cn",
+    "features": [
+      "src/test/resources/features/smoketest/cn/product/Product.feature"
+    ]
+  }
+]

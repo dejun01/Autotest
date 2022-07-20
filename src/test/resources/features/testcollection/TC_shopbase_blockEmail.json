@@ -1,0 +1,29 @@
+[
+  {
+    "environment": "sbase_dashboard",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/dashboard/Common/BlockEmailProd.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/dashboard/Common/BlockEmailStagDev.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard",
+    "run_on": [
+      "dev"
+    ],
+    "features": [
+      "src/test/resources/features/dashboard/Common/BlockEmailStagDev.feature"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+product_id,product_handle,name_of_customer,email,rating,title,review,date_of_review,link_of_img_1,link_of_img_2,link_of_img_3,link_of_img_4,link_of_img_5
+,,Ha Vu,havu@gmail.com,4,Normal,good,,,,,,
+,velvet-party-dress,Ha Vu,havu@gmail.com,5,Has product handle,good,,,,,,
+,,,havu@gmail.com,2,Customer name null,good,,,,,,
+,,Ha Vu,,,Email null,good,,,,,,
+,,Ha Vu,havu@gmail.com,4,Review body null,,,,,,,
+,,Ha Vu,havu@gmail.com,6,Rating invalid,good,,,,,,

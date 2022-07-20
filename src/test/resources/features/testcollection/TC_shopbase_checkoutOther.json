@@ -1,0 +1,158 @@
+[
+  {
+    "environment": "sbase_roller_checkout",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutFlow.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CustomerInformation.feature"
+    ]
+  },
+  {
+    "environment": "sbase_pbase_checkout_livemode",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutViaPrintBaseLiveMode.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_automatic_discount_freeship",
+    "features": [
+      "src/test/resources/features/opencommerce/discount/CheckoutUseAutoDiscountFreeShip.feature"
+    ]
+  },
+  {
+    "environment": "sbase_automatic_discount_freeship",
+    "features": [
+      "src/test/resources/features/opencommerce/discount/AutomaticFreeShip.feature"
+    ]
+  },
+  {
+    "environment": "sbase_code_discount_freeship",
+    "features": [
+      "src/test/resources/features/opencommerce/discount/CodeFreeShip.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/discount/CheckoutUseDiscount.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_checkout_com",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/CheckoutViaCheckoutGateway.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_cardpay",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/CheckoutViaCardpay.feature"
+    ]
+  },
+  {
+    "environment": "sbase_orders",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckoutsRecoveryForEmail.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_payment_rotation",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/PaymentRotation.feature"
+    ]
+  },
+  {
+    "environment": "sbase_check_fail_reason_abandoned_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckoutFailReason.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/ZipcodeAndState.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_asiaBill",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/CheckoutViaAsiabill.feature"
+    ]
+  },
+  {
+    "environment": "sbase_scanorder_cardpay",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/CheckoutScanOrderCardpay.feature"
+    ]
+  },
+  {
+    "environment": "sbase_scanorder_asiaBill",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/CheckoutScanOrderAsiabill.feature"
+    ]
+  },
+  {
+    "environment": "sbase_risk_level",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/risk_system/ChangeRiskLevel.feature"
+    ]
+  },
+  {
+    "environment": "sbase_tax_checkout_include",
+    "features": [
+      "src/test/resources/features/opencommerce/tax_module/TaxSbaseCheckoutFlowInclude.feature"
+    ]
+  },
+  {
+    "environment": "sbase_tax_checkout_exclude",
+    "features": [
+      "src/test/resources/features/opencommerce/tax_module/TaxSbaseCheckoutFlowExclude.feature"
+    ]
+  },
+  {
+    "environment": "pbase_tax_checkout_include",
+    "features": [
+      "src/test/resources/features/opencommerce/tax_module/TaxPbaseCheckoutFlowInclude.feature"
+    ]
+  },
+  {
+    "environment": "pbase_tax_checkout_exclude",
+    "features": [
+      "src/test/resources/features/opencommerce/tax_module/TaxPbaseCheckoutFlowExclude.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_EU_stripe_inside",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/inside/stripe/CheckoutViaEUPayment.feature"
+    ]
+  },
+  {
+    "environment": "checkout_manual_capture",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutManualCapture.feature"
+    ]
+  },
+  {
+    "environment": "plusbase_tax_checkout_exclude",
+    "features": [
+      "src/test/resources/features/opencommerce/tax_module/TaxPlusbaseCheckoutExclude.feature"
+    ]
+  },
+  {
+    "environment": "plusbase_tax_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/tax_module/TaxPlusbaseCheckoutInclude.feature"
+    ]
+  }
+]

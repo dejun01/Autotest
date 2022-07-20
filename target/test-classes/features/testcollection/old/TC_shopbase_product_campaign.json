@@ -1,0 +1,288 @@
+[
+  {
+    "environment": "clone_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/CloneProductPrepareData.feature"
+    ]
+  },
+  {
+    "environment": "clone_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/CloneCampaignPrepareData.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/AddEditProduct.feature",
+      "src/test/resources/features/opencommerce/products/ProductVariant01.feature",
+      "src/test/resources/features/opencommerce/products/ProductVariant02.feature",
+      "src/test/resources/features/opencommerce/products/ProductVariant03.feature",
+      "src/test/resources/features/opencommerce/products/ImportExportProduct.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_product_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/ProductPage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_product_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/ProductPage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_collection",
+    "features": [
+      "src/test/resources/features/opencommerce/products/Collections.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_feed",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ProductFeed.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_list",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ProductList.feature"
+    ]
+  },
+  {
+  "environment": "sbase_auto_generate_sku_product",
+  "features": [
+    "src/test/resources/features/opencommerce/products/AutoGenerateSKU.feature"
+  ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_editor",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkEditor.feature"
+    ]
+  },
+  {
+    "environment": "pbase_mapping_products",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/fulfillments/MappingProducts.feature"
+    ]
+  },
+  {
+    "environment": "print_on_demand_mycampaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/Pricing.feature"
+    ]
+  },
+  {
+    "environment": "pbase_flow_sync_layer",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/LogicLayer.feature"
+    ]
+  },
+  {
+    "environment": "pbase_flow_target_layer",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/TargetLayer.feature",
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CustomOptionEditorWithCheckBox.feature",
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CustomOptionEditorWithRadioDroplist.feature"
+    ]
+  },
+  {
+    "environment": "print_on_demand_campaign_personalize",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/SF_PersonalizeOld.feature"
+    ]
+  },
+  {
+    "environment": "pbase_new_campaign_editor_custom",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CustomOptionEditorWithTextAndImage.feature",
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CustomOptionValidate.feature"
+    ]
+  },
+  {
+    "environment": "pbase_new_campaign_editor_custom_PSD",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CustomOptionEditorPSD.feature"
+    ]
+  },
+  {
+    "environment": "pbase_new_campaign_flow",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/CampEditor_2D.feature"
+    ]
+  },
+  {
+    "environment": "pbase_new_campaign_editor_3D",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/CamEditor_3D.feature"
+    ]
+  },
+  {
+    "environment": "pbase_duplicate_editor_custom_option",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/Duplicate/DuplicateCampaignCustomOption.feature"
+    ]
+  },
+  {
+    "environment": "pbase_duplicate_editor",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/Duplicate/DuplicateCampaign2D_Editor.feature"
+    ]
+  },
+  {
+    "environment": "pbase_custom_option_validate",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CustomOptionValidate.feature",
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/SFCustomOptionValidate.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_01",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate01.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_02",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate02.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_03",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate03.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_04",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate04.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_05",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate05.feature"
+    ]
+  },
+  {
+    "environment": "phub_import_by_API",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/ImportOrderByAPI.feature"
+    ]
+  },
+  {
+    "environment": "pbase_water_mask",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/settings/WaterMask.feature"
+    ]
+  },
+  {
+    "environment": "pbase_custom_option_picture_choice",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CustomOptionPictureChoice.feature"
+    ]
+  },
+  {
+    "environment": "pbase_edit_custom_option",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/EditCustomOption.feature"
+    ]
+  },
+  {
+    "environment": "pbase_order_edit_custom_option",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/orders/EditCustomOptionOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_water_mask",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/settings/WaterMark_Product.feature"
+    ]
+  },
+  {
+    "environment": "print_on_demand_bulk_duplicate_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/BulkDuplicate/BulkDuplicate.feature"
+    ]
+  },
+  {
+    "environment": "print_on_demand_bulk_duplicate_campaign_3D",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/BulkDuplicate/BulkDuplicate3D.feature"
+    ]
+  },
+  {
+    "environment": "pbase_size_chart_sfnext",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/settings/SizeChartSFnext.feature"
+    ]
+  },
+  {
+    "environment": "pbase_add_manual_design_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/ManualDesign/CreateManualDesignCampaign.feature"
+    ]
+  },
+  {
+    "environment": "pbase_manage_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/BulkDuplicate/ManageCampaign.feature"
+    ]
+  },
+  {
+    "environment": "pbase_add_photo_guide",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/ManualDesign/CreatePhotoGuide.feature"
+    ]
+  },
+  {
+    "environment": "pbase_edit_syn_photoguide",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/ManualDesign/EditAndSynPhotoGuide.feature"
+    ]
+  },
+
+  {
+    "environment": "pbase_crop_image",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/SF_CropImage_Roller.feature"
+    ]
+  },
+  {
+    "environment": "clone_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/CloneProductVerifyData.feature"
+    ]
+  },
+  {
+    "environment": "clone_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/CloneCampaignVerifyData.feature"
+    ]
+  },
+  {
+    "environment": "pbase_add_photo_guide",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/ManualDesign/CreatePhotoGuide.feature"
+    ]
+  },
+  {
+    "environment": "pbase_create_camp_manual_approve",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/customOption/CampaignManualApprove.feature"
+    ]
+  },
+  {
+    "environment": "pbase_edit_syn_photoguide",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/ManualDesign/EditAndSynPhotoGuide.feature"
+    ]
+  }
+
+]

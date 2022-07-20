@@ -1,0 +1,25 @@
+[
+  {
+    "environment": "sbase_createshop",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/create_shop/CreateShops.feature"
+    ]
+  },
+  {
+    "environment": "pbase_preset_shop_template",
+    "features": [
+      "src/test/resources/features/opencommerce/create_shop/PresetShopPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "pbase_createshop",
+    "features": [
+      "src/test/resources/features/opencommerce/create_shop/CreateShopsPrintBase.feature",
+      "src/test/resources/features/opencommerce/create_shop/VerifyCampaignCloneFromShopTem.feature"
+    ]
+  }
+
+]

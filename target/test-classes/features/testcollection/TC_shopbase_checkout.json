@@ -1,0 +1,122 @@
+[
+  {
+    "environment": "checkout_buy_with_paypal",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/inside/paypal/CheckoutBuyWithPaypal.feature"
+    ]
+  },
+  {
+    "environment": "sbase_pbase_hive_discount",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/stripe/CheckoutViaStripeWithPBaseDiscount.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_spay",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/stripe/CheckoutViaSpay.feature"
+    ]
+  },
+  {
+    "environment": "spay_reseller_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/stripe/CheckoutViaSpayReseller.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_stripe",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/stripe/CheckoutViaStripe.feature"
+    ]
+  },
+  {
+    "environment": "sbase_onepage_checkout_stripe",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/stripe/OnePageCheckoutViaStripe.feature"
+    ]
+  },
+  {
+    "environment": "sbase_onepage_checkout_spay",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/stripe/OnePageCheckoutViaSpay.feature"
+    ]
+  },
+  {
+    "environment": "spay_reseller_dispute",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/CheckFilterOrderChargebackAndInquiry.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_paypal",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/paypal/CheckoutViaPaypal.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_paypal_smart_button",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/paypal/CheckoutViaPaypalSmartButton.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_paypal_pro",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/paypal/CheckoutViaPaypalPro.feature"
+    ]
+  },
+  {
+    "environment": "sbase_onepage_checkout_paypal",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/paypal/OnePageCheckoutViaPaypal.feature"
+    ]
+  },
+  {
+    "environment": "sbase_onepage_checkout_paypal_smart_button",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/paypal/OnePageCheckoutViaPaypalSmartButton.feature"
+    ]
+  },
+  {
+    "environment": "sbase_onepage_checkout_paypal_pro",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/paypal/OnePageCheckoutViaPaypalPro.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_stripe_inside",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/inside/stripe/CheckoutViaStripe.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_paypal_smart_button_inside",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/inside/paypal/CheckoutViaPaypalSmartButton.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_paypal_inside",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/inside/paypal/CheckoutViaPaypal.feature"
+    ]
+  },
+  {
+    "environment": "sbase_check_dispute_spay",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/CheckDisputeAndInquiryForSpay.feature"
+    ]
+  },
+  {
+    "environment": "spay_reseller_dispute",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/CheckDisputeAndInquiryForReseller.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_paypal_activated_ByPCP",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/paypal/CheckoutViaPaypalActivatedByPCP.feature"
+    ]
+  }
+]

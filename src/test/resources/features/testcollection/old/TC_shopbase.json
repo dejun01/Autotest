@@ -1,0 +1,801 @@
+[
+  {
+    "environment": "sales_channel_GMC",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/sales_channels/SalesChannelGMC.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/authen/Authentication.feature"
+    ]
+  },
+  {
+    "environment": "sbase_unify_payment",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/balance/UnifyPayment.feature"
+    ]
+  },
+  {
+    "environment": "sbase_abandoned",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckout3Emails.feature"
+    ]
+  },
+  {
+    "environment": "sbase_gateway_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/RemoveAllPaymentAccount.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/HomePage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_theme1",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/HomePage1.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_cart_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/CartPage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_theme2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage1.feature"
+    ]
+  },
+  {
+    "environment": "inside_cartgoal",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_CartGoal.feature"
+    ]
+  },
+  {
+    "environment": "inside_featuredproduct",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage3.feature"
+    ]
+  },
+  {
+    "environment": "sbase_manage_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/ManageTheme.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_settings2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/ProductWitdget.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_settings",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Settings.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_settings2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/Settings2.feature"
+    ]
+  },
+  {
+    "environment": "pbase_roller_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/FooterPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "pbase_inside_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/FooterPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "inside_homepage2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/HomePage-CustomerTestimonial.feature"
+    ]
+  },
+  {
+    "environment": "inside_mega_menu",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Mega_Menu.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_newsletter",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_Newsletter.feature"
+    ]
+  },
+  {
+    "environment": "inside_logosection",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_LogoSection.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_theme_setting",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/Settings.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping1",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingItemBasedRateCondition.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping4",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingPriceBasesRates.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping5",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingWeightBasedRates.feature"
+    ]
+  },
+  {
+    "environment": "sbase_notification",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/checkout/CustomerAccounts.feature"
+    ]
+  },
+  {
+    "environment": "sbase_analytics_total_salse",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AnalyticsTotalSalse.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/Orders.feature",
+      "src/test/resources/features/opencommerce/orders/order/RefundOrder.feature",
+      "src/test/resources/features/opencommerce/orders/order/CancelOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingCountry.feature"
+    ]
+  },
+  {
+    "environment": "sbase_analytics",
+    "features": [
+      "src/test/resources/features/opencommerce/analytics/Analytics_new.feature"
+    ]
+  },
+  {
+    "environment": "sbase_analytics_live_view",
+    "features": [
+      "src/test/resources/features/opencommerce/analytics/AnalyticsLiveView.feature"
+    ]
+  },
+  {
+    "environment": "analytics_by_customers",
+    "features": [
+      "src/test/resources/features/opencommerce/analytics/CustomerAnalytics.feature"
+    ]
+  },
+  {
+    "environment": "sbase_authorized_first_charge",
+    "features": [
+      "src/test/resources/features/opencommerce/balance/AuthorizeFirstCharge.feature"
+    ]
+  },
+  {
+    "environment": "sbase_custom_tracking",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/sales_channels/CustomTracking.feature"
+    ]
+  },
+  {
+    "environment": "sbase_tracking_event_3_pages_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/trackingevent/google/GoogleAnalytics3PagesCheckout.feature",
+      "src/test/resources/features/opencommerce/trackingevent/facebook/FacebookPixel3PagesCheckout.feature"
+    ]
+  },
+  {
+    "environment": "sbase_tracking_event_one_page_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/trackingevent/google/GoogleAnalyticsOnePageCheckout.feature",
+      "src/test/resources/features/opencommerce/trackingevent/facebook/FacebookPixelOnePageCheckout.feature"
+    ]
+  },
+  {
+    "environment": "sbase_tracking_event_conversion_api",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/trackingevent/facebook/FacebookeTrackingConversionAPI.feature"
+    ]
+  },
+  {
+    "environment": "sbase_datalayer3page",
+    "features": [
+      "src/test/resources/features/opencommerce/trackingevent/datalayer/DataLayer3pageCheckout.feature"
+    ]
+  },
+  {
+    "environment": "sbase_datalayer1page",
+    "features": [
+      "src/test/resources/features/opencommerce/trackingevent/datalayer/DataLayer1pageCheckout.feature"
+    ]
+  },
+  {
+    "environment": "sbase_migrate_to_shoplazza",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/apps/migratetoshopbase/Shoplazza.feature"
+    ]
+  },
+  {
+    "environment": "sbase_affiliate",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/partners/Affiliate.feature",
+      "src/test/resources/features/opencommerce/partners/SignUpAffiliate.feature"
+    ]
+  },
+  {
+    "environment": "sbase_affiliate",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/partners/Affiliate.feature"
+    ]
+  },
+  {
+    "environment": "sbase_affiliate_tier",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/partners/AffiliateTierProgram.feature"
+    ]
+  },
+  {
+    "environment": "sbase_apps_store",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/appstore/AppStore.feature",
+      "src/test/resources/features/opencommerce/appstore/ConfigAppStoreInHive.feature"
+    ]
+  },
+  {
+    "environment": "sbase_homepage_widget",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/homepage/contest/widget/WidgetInDashboard.feature",
+      "src/test/resources/features/opencommerce/homepage/contest/widget/ConfigWidgetInHive.feature"
+    ]
+  },
+  {
+    "environment": "sbase_homepage_widget",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/homepage/contest/widget/WidgetInDashboard.feature"
+    ]
+  },
+  {
+    "environment": "sbase_homepage_widget",
+    "run_on": [
+      "prodtest"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/homepage/contest/widget/WidgetInDashboard.feature"
+    ]
+  },
+  {
+    "environment": "print_on_demand_profit",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/profit/CalculateProfitWhenCheckoutByPaypal.feature",
+      "src/test/resources/features/opencommerce/apps/printbase/profit/CalculateProfitWhenCheckoutByStripe.feature"
+    ]
+  },
+  {
+    "environment": "sbase_balance_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/balance/Balance.feature"
+    ]
+  },
+  {
+    "environment": "sbase_balance_dashboard_printbase",
+    "features": [
+      "src/test/resources/features/opencommerce/balance/BalancePrintBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_activity_log",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/ActivityLog.feature"
+    ]
+  },
+  {
+    "environment": "sbase_utm_analytics",
+    "features": [
+      "src/test/resources/features/opencommerce/analytics/UTMAnalytics.feature"
+    ]
+  },
+  {
+    "environment": "sbase_cod_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/CODActivation.feature"
+    ]
+  },
+  {
+    "environment": "sbase_abandoned_detail",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckout.feature"
+    ]
+  },
+  {
+    "environment": "sbase_applist",
+    "features": [
+      "src/test/resources/features/opencommerce/appdashboard/AuthorizeApp.feature",
+      "src/test/resources/features/opencommerce/appdashboard/AppStore.feature"
+    ]
+  },
+  {
+    "environment": "sbase_applist",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/webhook/app-uninstalled.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/ExportingOrders.feature",
+      "src/test/resources/features/opencommerce/orders/order/ExportMultiOrders.feature",
+      "src/test/resources/features/opencommerce/orders/order/MassFulfillWithCSVMultiStore.feature",
+      "src/test/resources/features/opencommerce/orders/order/MassFulfillWithCSV.feature"
+    ]
+  },
+  {
+    "environment": "sbase_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/RemoveSections.feature"
+    ]
+  },
+  {
+    "environment": "sbase_homepage_bassy",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Bassy/HomePage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_settings_bassy",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Bassy/Settings.feature"
+    ]
+  },
+  {
+    "environment": "sbase_domain",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/domain/Domain.feature"
+    ]
+  },
+  {
+    "environment": "sbase_redirect_url",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/navigation/RedirectURL.feature",
+      "src/test/resources/features/opencommerce/online_store/preferences/LogoBuilder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_password_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/preferences/Preferences.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_manage_orders",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/ManageOrders.feature"
+    ]
+  },
+  {
+    "environment": "pbase_mapping_orders",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/OrderMapping.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_itembased",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingForItemBasedRates.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_exclusion",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingExclusionForItemBasedRules.feature"
+    ]
+  },
+  {
+    "environment": "sbase_billing_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/AccountBillingSetting.feature"
+    ]
+  },
+  {
+    "environment": "sbase_add_account_staff",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/AddAccountStaff.feature"
+    ]
+  },
+  {
+    "environment": "sbase_brazil",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutFlowWithBrazil.feature"
+    ]
+  },
+  {
+    "environment": "sbase_approved_order",
+    "features": [
+      "src/test/resources/features/opencommerce/hive_pbase/order_pbase/ApprovedOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_order_detail_pbase",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/OrderDetailPBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_fulfillment_package",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/FulfillmentPackage.feature"
+    ]
+  },
+  {
+    "environment": "hive_pbase",
+    "features": [
+      "src/test/resources/features/opencommerce/hive_pbase/order_pbase/RefundOrderPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "order_cancel",
+    "features": [
+      "src/test/resources/features/opencommerce/hive_pbase/cancel_order/CancelOrderAuthorized.feature",
+      "src/test/resources/features/opencommerce/hive_pbase/cancel_order/CancelOrderPaid.feature"
+    ]
+  },
+  {
+    "environment": "pbase_conditional_logic",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaignEditor/ConditionalLogic.feature"
+    ]
+  },
+  {
+    "environment": "order_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/ExportNumberOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_tier",
+    "features": [
+      "src/test/resources/features/opencommerce/tier_program/TierProgram.feature"
+    ]
+  },
+  {
+    "environment": "sbase_translate_language",
+    "features": [
+      "src/test/resources/features/opencommerce/create_shop/TranslateLanguage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_adc_import_products",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/products/ImportProducts1.feature"
+    ]
+  },
+  {
+    "environment": "sbase_gateway_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/RemoveAllPaymentAccount.feature",
+      "src/test/resources/features/opencommerce/settings/payment/PaypalActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/BraintreeActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/CheckoutComActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/PaypalProActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/StripeActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/Unlimint.feature"
+    ]
+  },
+  {
+    "environment": "more_filter",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/MoreFilters.feature"
+    ]
+  },
+  {
+    "environment": "sbase_cod_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutViaCODmethod.feature",
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutViaBankTransfer.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping4",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingPriceBasesRatesSeveral.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping5",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingWeightBasedRatesSeveral.feature"
+    ]
+  },
+  {
+    "environment": "sbase_feed_gmc",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ProductFeedSyncGMC.feature"
+    ]
+  },
+  {
+    "environment": "sbase_otp",
+    "features": [
+      "src/test/resources/features/opencommerce/otp/RequireOTP.feature"
+    ]
+  },
+  {
+    "environment": "sbase_oceanpayment_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/OceanPaymentActivation.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_oceanpayment",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/CheckoutViaOceanPayment.feature",
+      "src/test/resources/features/opencommerce/orders/order/RefundCancelFulfillOrderOceanpayment.feature"
+    ]
+  },
+  {
+    "environment": "sbase_oceanpayment_onepage",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/OnePageCheckoutViaOceanpayment.feature"
+    ]
+  },
+  {
+    "environment": "sbase_abandoned",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckout3EmailsTimeline.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_customeraccount",
+    "features": [
+      "src/test/resources/features/opencommerce/authen/CustomerAccount.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingCountrySeveral.feature"
+    ]
+  },
+  {
+    "environment": "sbase_topup_wire_transfer",
+    "features": [
+      "src/test/resources/features/opencommerce/balance/TopupWireTransfer.feature"
+    ]
+  },
+  {
+    "environment": "plbase_sign_in",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/SignInPlusBase.feature"
+    ]
+  },
+  {
+    "environment": "plbase_create_store",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/CreateStorePlusBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_profile_setting_printbase",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/SettingShippingFee.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_profile_printbase",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/ShippingRules.feature",
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/ShippingRulesWithPPC.feature"
+    ]
+  },
+  {
+    "environment": "plusbase_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/order/ProfitOrderDetail.feature",
+      "src/test/resources/features/opencommerce/plus_base/catalog/ProductCatalogDashboard.feature",
+      "src/test/resources/features/opencommerce/plus_base/catalog/ImportProductInCatalog.feature"
+    ]
+  },
+  {
+    "environment": "plbase_onboarding_steps",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/Onboarding.feature"
+    ]
+  },
+  {
+    "environment": "plbase_catalog_detail",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/ProductDetailPlusBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_adc_import_products",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/products/ImportProducts2.feature"
+    ]
+  },
+  {
+    "environment": "fulfill_multi",
+    "features": [
+    ]
+  },
+  {
+    "environment": "sbase_cod_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/BankTransferActivation.feature"
+    ]
+  },
+  {
+    "environment": "update-product-detail",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/products/FulfillmentServicesProductDetail.feature"
+    ]
+  },
+  {
+    "environment": "sbase_social_proof",
+    "features": [
+      "src/test/resources/features/opencommerce/hive_shopBase/SocialProof.feature"
+    ]
+  },
+  {
+    "environment": "export_dispute",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/ExportTransaction.feature"
+    ]
+  },
+  {
+    "environment": "pbase_setup_free_shipping_rules",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/SettingFreeShippingForPrintbase.feature"
+    ]
+  },
+  {
+    "environment": "pbase_checkout_shipping_free",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/FreeShippingRules.feature"
+    ]
+  },
+  {
+    "environment": "update_filter_product_list",
+    "features": [
+      "src/test/resources/features/opencommerce/products/UpdateFilterProductList.feature"
+    ]
+  },
+  {
+    "environment": "sbase_affiliate_request",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/partners/AffiliateRequest.feature"
+    ]
+  },
+  {
+    "environment": "tipping_option",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/checkout/Tipping.feature"
+    ]
+  },
+  {
+    "environment": "onboarding_survey",
+    "features": [
+      "src/test/resources/features/opencommerce/onboading_survey/OnboardingSurvey.feature"
+    ]
+  },
+  {
+    "environment": "plusbase_private_request",
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/catalog/PrivateRequest.feature"
+    ]
+  },
+  {
+    "environment": "sbase_fulfillment_service",
+    "features": [
+      "src/test/resources/features/opencommerce/fulfillment_service/warehouse/MappingProduct.feature",
+      "src/test/resources/features/opencommerce/fulfillment_service/find_products/PurchaseOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_create_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/page/CreatePageShopbase.feature",
+      "src/test/resources/features/opencommerce/settings/account/StaffAcc.feature"
+    ]
+  },
+  {
+    "environment": "sbase_claim",
+    "features": [
+      "src/test/resources/features/opencommerce/fulfillment_service/claim/ClaimList.feature",
+      "src/test/resources/features/opencommerce/fulfillment_service/claim/ViewClaimInOrderDetail.feature"
+
+    ]
+  },
+  {
+    "environment": "sbase_create_new_claim",
+    "features": [
+      "src/test/resources/features/opencommerce/fulfillment_service/claim/CreateNewClaim.feature"
+    ]
+  },
+  {
+    "environment": "sbase_ignore_otp",
+    "features": [
+      "src/test/resources/features/opencommerce/otp/IgnoreOTPPaymentMethods.feature"
+    ]
+  }
+]

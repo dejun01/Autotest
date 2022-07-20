@@ -1,0 +1,184 @@
+[
+  {
+    "environment": "sales_channel_GMC",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/sales_channels/SalesChannelGMC.feature"
+    ]
+  },
+  {
+    "environment": "sbase_gateway_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/RemoveAllPaymentAccount.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping1",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingItemBasedRateCondition.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping4",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingPriceBasesRates.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping5",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingWeightBasedRates.feature"
+    ]
+  },
+  {
+    "environment": "sbase_notification",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/checkout/CustomerAccounts.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingCountry.feature"
+    ]
+  },
+  {
+    "environment": "sbase_custom_tracking",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/sales_channels/CustomTracking.feature"
+    ]
+  },
+  {
+    "environment": "sbase_activity_log",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/ActivityLog.feature"
+    ]
+  },
+  {
+    "environment": "sbase_cod_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/CODActivation.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_itembased",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingForItemBasedRates.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_exclusion",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingExclusionForItemBasedRules.feature"
+    ]
+  },
+  {
+    "environment": "sbase_billing_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/AccountBillingSetting.feature"
+    ]
+  },
+  {
+    "environment": "sbase_add_account_staff",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/AddAccountStaff.feature"
+    ]
+  },
+  {
+    "environment": "sbase_fulfillment_package",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/account/FulfillmentPackage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_gateway_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/RemoveAllPaymentAccount.feature",
+      "src/test/resources/features/opencommerce/settings/payment/PaypalActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/BraintreeActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/CheckoutComActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/PaypalProActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/StripeActivation_v2.feature",
+      "src/test/resources/features/opencommerce/settings/payment/Unlimint.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping4",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingPriceBasesRatesSeveral.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping5",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingWeightBasedRatesSeveral.feature"
+    ]
+  },
+  {
+    "environment": "sbase_oceanpayment_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/OceanPaymentActivation.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping/ShippingCountrySeveral.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_profile_setting_printbase",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/SettingShippingFee.feature"
+    ]
+  },
+  {
+    "environment": "sbase_shipping_profile_printbase",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/ShippingRules.feature",
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/ShippingRulesWithPPC.feature"
+    ]
+  },
+  {
+    "environment": "sbase_cod_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/BankTransferActivation.feature"
+    ]
+  },
+  {
+    "environment": "pbase_setup_free_shipping_rules",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/SettingFreeShippingForPrintbase.feature"
+    ]
+  },
+  {
+    "environment": "pbase_checkout_shipping_free",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/shipping_profiles_printbase/FreeShippingRules.feature"
+    ]
+  },
+  {
+    "environment": "tipping_option",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/checkout/Tipping.feature",
+      "src/test/resources/features/opencommerce/settings/checkout/AdditionalSettings.feature"
+    ]
+  },
+  {
+    "environment": "plbase_buy_domain",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/onlinestore/BuyDomain.feature"
+    ]
+  },
+  {
+    "environment": "sbase_switch_domain",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/dashboard/SwitchDomain.feature"
+    ]
+  }
+]

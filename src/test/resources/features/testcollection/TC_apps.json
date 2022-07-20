@@ -1,0 +1,181 @@
+[
+  {
+    "environment": "copt_notification",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostconvert/social_proof/NotificationList.feature"
+      ]
+  },
+  {
+    "environment": "copt_product_countdown",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostconvert/social_proof/CheckoutNotification.feature",
+      "src/test/resources/features/opencommerce/apps/boostconvert/countdown_tool/ProductCountdown.feature",
+      "src/test/resources/features/opencommerce/apps/boostconvert/countdown_tool/TimerCountdown.feature"
+    ]
+  },
+  {
+    "environment": "us_pre_purchase",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/upsell/PrePurchase.feature",
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/bundle/Bundle.feature",
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/product_widgets/HandpickedProducts.feature",
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/product_widgets/MoreFromCollections.feature"
+    ]
+  },
+  {
+    "environment": "us_post_purchase",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/upsell/PostPurchase.feature",
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/product_widgets/ChangeSettingWidget.feature",
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/quantity_discount/QuantityDiscount.feature"
+    ]
+  },
+  {
+    "environment": "us_quantity_discount_in_product_admin",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/quantity_discount/QuantityDiscountInProductAdmin.feature"
+    ]
+  },
+  {
+    "environment": "us_quickview",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/quick_view/AddMoreItem.feature",
+      "src/test/resources/features/opencommerce/apps/boostupsell/quick_view/Quickview.feature"
+    ]
+  },
+  {
+    "environment": "us_smart_offer",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/upsell/SmartOffer.feature"
+    ]
+  },
+  {
+    "environment": "us_setting_cta",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/upsell/Setting_CTA.feature"
+    ]
+  },
+  {
+    "environment": "us_analytics",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/analytics/AnalyticsUsell.feature"
+    ]
+  },
+  {
+    "environment": "us_incart_offer",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/upsell/InCartOffer.feature",
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/accessory/AccessoryUpsell.feature",
+      "src/test/resources/features/opencommerce/store_front/UpdateSearchUI.feature"
+    ]
+  },
+  {
+    "environment": "us_bundle_in_product_admin",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/boostupsell/cross_sell/bundle/BundleInProductAdmin.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_payment_method",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/payments/PaymentMethod.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_auto_charge_payment",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/payments/AutoChargePayment.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_manual_charge_payment",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/payments/ManualChargePayment.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_catalog",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/catalog/Catalog.feature"
+    ],
+    "run_headless": false
+  },
+  {
+    "environment": "sbase_review",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/review/Customization.feature"
+    ]
+  },
+  {
+    "environment": "pbase_import_shared_reviews",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/review/ShareReview.feature"
+    ]
+  },
+  {
+    "environment": "pbase_review_in_product_admin",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/review/ReviewInProductPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_review_in_product_admin",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/review/ReviewInProductAdmin.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_duplicate_campaign_draf",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/campaigns/DuplicateCampaignDraft.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_campaign_3D",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/campaigns/CreateCampaign3D.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_campaign_2D",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/campaigns/CreateCampaign2D.feature"
+    ]
+  },
+  {
+    "environment": "sbase_review2",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/review/WriteReview.feature"
+    ]
+  },
+  {
+    "environment": "sbase_review3",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/review/ManageReviews.feature"
+    ]
+  },
+  {
+    "environment": "sbase_review_productgroup",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/review/ProductGroups.feature"
+    ]
+  },
+  {
+    "environment": "import_order_printHub",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/ImportOrderPrintHub.feature"
+    ]
+  },
+  {
+    "environment": "shipping_profile",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/Shipping/ShippingProfileOrderList.feature"
+    ]
+  },
+  {
+    "environment": "charge_manual_order_import",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/payments/ChargeAPIOrderImport.feature"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /cart
+Disallow: /checkouts
+Disallow: /orders
+Disallow: /my-account
+Disallow: /search
+Disallow: /policies
+Disallow: /*theme_preview_id*
+Disallow: /checkout-additional
+Sitemap: {primary_domain}/sitemap.xml # This will automatically remain your current primary domain to assure correct indexing.
+
+# Google adsbot ignores robots.txt unless specifically named!
+User-agent: adsbot-google
+Disallow: /cart
+Disallow: /checkouts
+Disallow: /orders
+Disallow: /*theme_preview_id*
+Disallow: /checkout-additional
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+Disallow: /admin
+Disallow: /login
+Disallow: /cart
+Disallow: /checkouts
+Disallow: /orders
+Disallow: /my-account
+Disallow: /search
+Disallow: /policies
+Disallow: /*theme_preview_id*
+Disallow: /checkout-additional
+Sitemap: {primary_domain}/sitemap.xml # This will automatically remain your current primary domain to assure correct indexing.
+
+User-agent: AhrefsSiteAudit
+Crawl-delay: 10
+Disallow: /admin
+Disallow: /login
+Disallow: /cart
+Disallow: /checkouts
+Disallow: /orders
+Disallow: /my-account
+Disallow: /search
+Disallow: /policies
+Disallow: /*theme_preview_id*
+Disallow: /checkout-additional
+Sitemap: {primary_domain}/sitemap.xml # This will automatically remain your current primary domain to assure correct indexing.
+
+User-agent: MJ12bot
+Crawl-Delay: 10
+
+User-agent: Pinterest
+Crawl-delay: 1
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-image
+Disallow:

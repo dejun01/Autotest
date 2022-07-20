@@ -1,0 +1,106 @@
+[
+  {
+    "environment": "sbase_smoke_balance",
+    "features": [
+      "src/test/resources/features/smoketest/billing/Balance.feature"
+    ]
+  },
+  {
+    "environment": "usell_smoke",
+    "features": [
+      "src/test/resources/features/smoketest/apps/boostupsell/Upsell.feature",
+      "src/test/resources/features/smoketest/apps/boostupsell/CrossSell.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_checkout_stripe_paypal",
+    "features": [
+      "src/test/resources/features/smoketest/checkout/CheckoutViaStripe.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_checkout_paypal_smart_button",
+    "features": [
+      "src/test/resources/features/smoketest/checkout/CheckoutViaPaypalSmartButton.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_checkout_spay_paypal",
+    "features": [
+      "src/test/resources/features/smoketest/checkout/CheckoutViaSpay.feature",
+      "src/test/resources/features/smoketest/checkout/CheckoutViaPaypalStandard.feature"
+    ]
+  },
+  {
+    "environment": "phub_smoke",
+    "features": [
+      "src/test/resources/features/smoketest/apps/phub/ManageOrdersPhub.feature"
+    ]
+  },
+  {
+    "environment": "xpanda_smoke_fulfill_pod",
+    "features": [
+      "src/test/resources/features/smoketest/apps/xpanda/FulfillOrderPOD.feature"
+    ]
+  },
+  {
+    "environment": "xpanda_smoke_sync_order_drs",
+    "features": [
+      "src/test/resources/features/smoketest/apps/xpanda/SyncOrderDropShip.feature"
+    ]
+  },
+  {
+    "environment": "pbase_smoke_create_campaign",
+    "features": [
+      "src/test/resources/features/smoketest/printbase/CreateCampaign.feature"
+    ]
+  },
+  {
+    "environment": "pbase_smoke_create_campaign_custom_option",
+    "features": [
+      "src/test/resources/features/smoketest/printbase/CreateCampaignPersonalize.feature"
+    ]
+  },
+  {
+    "environment": "pbase_smoke_bulk_duplicate_campaign",
+    "features": [
+      "src/test/resources/features/smoketest/printbase/BulkDuplicateCampaign.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_product",
+    "features": [
+      "src/test/resources/features/smoketest/product/Product.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_collection",
+    "features": [
+      "src/test/resources/features/smoketest/product/Collection.feature"
+    ]
+  },
+  {
+    "environment": "adc_smoke",
+    "features": [
+      "src/test/resources/features/smoketest/apps/adc/AdcOrders.feature"
+    ]
+  },
+  {
+    "environment": "review_smoke",
+    "features": [
+      "src/test/resources/features/smoketest/apps/reviews/WriteReview.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_createshop",
+    "features": [
+      "src/test/resources/features/smoketest/authen/CreateShop.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_affiliate",
+    "features": [
+      "src/test/resources/features/smoketest/partner/Affiliate.feature"
+    ]
+  }
+]
