@@ -11,9 +11,7 @@ Feature: Clipart folder validate
       | 02  | ClipartFolder | groupFolder00 |               |
       | 03  |               | groupFolder00 |               |
       | 04  | ClipartFolder | groupFolder00 | phub/BD_8.png |
-    And click to button save change as "<KEY>"
-      | KEY   |
-      | <KEY> |
+    And click to button "Save changes"
     Then verify display message ERROR as "<KEY>"
       | KEY | Folder                       | Clipart                                      | Image |
       | 01  | Please fill the folder name. |                                              |       |
@@ -44,9 +42,7 @@ Feature: Clipart folder validate
     And edit info clipart folder in dashboard as "<KEY>"
       | KEY | Current name |
       | 04  | BD_8         |
-    And click to button save change as "<KEY>"
-      | KEY   |
-      | <KEY> |
+    And click to button "Save changes"
     Then verify display message ERROR as "<KEY>"
       | KEY | Folder                       | Clipart                                      | Image                         |
       | 01  | Please fill the folder name. |                                              |                               |

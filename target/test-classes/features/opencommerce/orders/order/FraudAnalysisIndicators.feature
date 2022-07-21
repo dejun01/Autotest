@@ -95,3 +95,5 @@ Feature: Fraud Analysis Indicator
       ### If run on server 2 indicators below are always red. If testing on local, 1 indicator is always green and the rest one is always gray
       | The IP address used to place the order is a high risk internet connection                         | red   | fraud-indicator fraud-indicator__risk  |
       | Customer used a web proxy to fake their IP address                                                | red   | fraud-indicator fraud-indicator__risk  |
+    
+    And open url "<string>"
