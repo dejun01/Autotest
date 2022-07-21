@@ -1,0 +1,87 @@
+[
+  {
+    "environment": "sbase_dashboard_product_import_limitation",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ImportProductLimitation.feature"
+    ]
+  },
+  {
+    "environment": "spay_reseller_activation",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/payment/SpayResellerActivation.feature"
+    ]
+  },
+  {
+    "environment": "pbase_contactus_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/page/ContactUsPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_contactus_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/page/ContactUsShopBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_manage_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/settings/legal/LegalSetting.feature"
+    ]
+  },
+  {
+    "environment": "pbase_limit_clone_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/LimitCloneCamapaignPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_account_security",
+    "features": [
+      "src/test/resources/features/opencommerce/authen/AccountSecurity.feature"
+    ]
+  },
+  {
+    "environment": "new_change_profile_otp",
+    "features": [
+      "src/test/resources/features/opencommerce/otp/ChangePhoneNumber_New.feature"
+    ]
+  },
+  {
+    "environment": "pbase_limit_quota_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/LimitQuotaCampaign.feature"
+    ]
+  },
+  {
+    "environment": "pbase_reach_bulkduplicate_limit_quota_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/LimitQuotaBulkDuplicate.feature"
+    ]
+  },
+  {
+    "environment": "sbase_limit_quota_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/campaigns/LimitQuotaCampaign.feature"
+    ]
+  },
+  {
+    "environment": "sbase_reach_bulkduplicate_limit_quota_campaign",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/campaigns/LimitQuotaBulkDuplicate.feature"
+    ]
+  },
+  {
+    "environment": "limit_collection_sb",
+    "features": [
+      "src/test/resources/features/opencommerce/products/LimitCollectionSBase.feature"
+    ]
+  },
+  {
+    "environment": "limit_collection_pb",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/campaigns/LimitCollectionPBase.feature"
+    ]
+  }
+
+]

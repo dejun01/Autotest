@@ -1,0 +1,203 @@
+[
+  {
+    "environment": "clone_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/CloneProductPrepareData.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/AddEditProduct.feature",
+      "src/test/resources/features/opencommerce/products/ProductVariant01.feature",
+      "src/test/resources/features/opencommerce/products/ProductVariant02.feature",
+      "src/test/resources/features/opencommerce/products/ProductVariant03.feature",
+      "src/test/resources/features/opencommerce/products/ImportExportProduct.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_product_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/ProductPage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_product_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/ProductPage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_size_chart_product",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/size_charts/SizeCharts.feature"
+    ]
+  },
+  {
+    "environment": "sbase_auto_generate_sku_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/AutoGenerateSKU.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_feed",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ProductFeed.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_list",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ProductList.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_editor",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkEditor.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_01",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate01.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_02",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate02.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_03",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate03.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_04",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate04.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_bulk_update_05",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdate05.feature"
+    ]
+  },
+  {
+    "environment": "sbase_create_personalize_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/personalize/PersonalizePreviewAndPrintfile.feature"
+    ]
+  },
+  {
+    "environment": "sbase_toolbar_personalize",
+    "features": [
+      "src/test/resources/features/opencommerce/products/personalize/CheckActionToolbar.feature",
+      "src/test/resources/features/opencommerce/products/personalize/ValiadateCOProductPage.feature"
+    ]
+  },
+  {
+    "environment": "clone_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/CloneProductVerifyData.feature"
+    ]
+  },
+  {
+    "environment": "sbase_adc_import_products",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/products/ImportProducts1.feature"
+    ]
+  },
+  {
+    "environment": "sbase_feed_gmc",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ProductFeedSyncGMC.feature"
+    ]
+  },
+  {
+    "environment": "update-product-detail",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/products/FulfillmentServicesProductDetail.feature"
+    ]
+  },
+  {
+    "environment": "update_filter_product_list",
+    "features": [
+      "src/test/resources/features/opencommerce/products/UpdateFilterProductList.feature"
+    ]
+  },
+  {
+    "environment": "sbase_bulk_update_delete_CO",
+    "features": [
+      "src/test/resources/features/opencommerce/products/BulkUpdateDeleteCO.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ProductConditional.feature"
+    ]
+  },
+  {
+    "environment": "sbase_create_printfile_product",
+    "features": [
+      "src/test/resources/features/opencommerce/products/personalize/ProductPersonnalize_PrintFile.feature"
+    ]
+  },
+  {
+    "environment": "sbase_create_printfile_order",
+    "features": [
+      "src/test/resources/features/opencommerce/products/personalize/OrderPersionalize_PrintFile.feature"
+    ]
+  },
+  {
+    "environment": "sbase_delete_products",
+    "features": [
+      "src/test/resources/features/opencommerce/products/DeleteProduct.feature"
+    ]
+  },
+  {
+    "environment": "sb_personalize_activity_log",
+    "features": [
+      "src/test/resources/features/opencommerce/products/personalize/ActivityLog.feature"
+    ]
+  },
+  {
+    "environment": "sb_personalize_export_order",
+    "features": [
+      "src/test/resources/features/opencommerce/products/personalize/ExportOrder.feature",
+      "src/test/resources/features/opencommerce/products/personalize/FilterOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_adc_import_products",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/products/ImportProducts2.feature"
+    ]
+  },
+  {
+    "environment": "sbase_chargefee_printfile",
+    "features": [
+      "src/test/resources/features/opencommerce/products/personalize/Chargefee_PrintFile.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard_product_collection",
+    "features": [
+      "src/test/resources/features/opencommerce/products/Collections.feature"
+    ]
+  },
+  {
+    "environment": "prod_scan_dmca_sbase",
+    "features": [
+      "src/test/resources/features/opencommerce/products/ScanDMCAshopbase.feature"
+    ]
+  }
+]

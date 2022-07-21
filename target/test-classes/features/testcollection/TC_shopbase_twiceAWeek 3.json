@@ -1,0 +1,26 @@
+[
+  {
+    "environment": "sbase_adc",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/manageorder/ManageOrders.feature"
+    ]
+  },
+  {
+    "environment": "sbase_adc_mapping",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/manageorder/MappingProducts.feature"
+    ]
+  },
+  {
+    "environment": "sbase_adc1",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/manageorder/ManageOrders3.feature"
+    ]
+  },
+  {
+    "environment": "sbase_adc1",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/adc/manageorder/ManageOrders2.feature"
+    ]
+  }
+]

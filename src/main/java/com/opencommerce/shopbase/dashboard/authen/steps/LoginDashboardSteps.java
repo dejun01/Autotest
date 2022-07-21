@@ -22,7 +22,7 @@ public class LoginDashboardSteps extends CommonSteps {
         }
         getDriver().manage().deleteAllCookies();
         loginPage.maximizeWindow();
-        loginPage.waitForTextToAppear("Sign in", 10000);
+//        loginPage.waitForTextToAppear("Sign in", 10000);
     }
 
     @Step

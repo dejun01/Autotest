@@ -1,0 +1,205 @@
+[
+  {
+    "environment": "sbase_abandoned",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckout3Emails.feature"
+    ]
+  },
+  {
+    "environment": "sbase_analytics_total_salse",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AnalyticsTotalSalse.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/Orders.feature",
+      "src/test/resources/features/opencommerce/orders/order/RefundOrder.feature",
+      "src/test/resources/features/opencommerce/orders/order/CancelOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_abandoned_detail",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckout.feature"
+    ]
+  },
+  {
+    "environment": "sbase_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/ExportingOrders.feature",
+      "src/test/resources/features/opencommerce/orders/order/ExportMultiOrders.feature",
+      "src/test/resources/features/opencommerce/orders/order/MassFulfillWithCSVMultiStore.feature",
+      "src/test/resources/features/opencommerce/orders/order/MassFulfillWithCSV.feature"
+    ]
+  },
+  {
+    "environment": "print_hub_manage_orders",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/ManageOrders.feature"
+    ]
+  },
+  {
+    "environment": "pbase_mapping_orders",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/OrderMapping.feature"
+    ]
+  },
+  {
+    "environment": "sbase_brazil",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutFlowWithBrazil.feature"
+    ]
+  },
+  {
+    "environment": "sbase_approved_order",
+    "features": [
+      "src/test/resources/features/opencommerce/hive_pbase/order_pbase/ApprovedOrder.feature"
+    ]
+  },
+  {
+    "environment": "sbase_order_detail_pbase",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/OrderDetailPBase.feature"
+    ]
+  },
+  {
+    "environment": "hive_pbase",
+    "features": [
+      "src/test/resources/features/opencommerce/hive_pbase/order_pbase/RefundOrderPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "order_cancel",
+    "features": [
+      "src/test/resources/features/opencommerce/hive_pbase/cancel_order/CancelOrderAuthorized.feature",
+      "src/test/resources/features/opencommerce/hive_pbase/cancel_order/CancelOrderPaid.feature"
+    ]
+  },
+  {
+    "environment": "order_dashboard",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/ExportNumberOrder.feature"
+    ]
+  },
+  {
+    "environment": "more_filter",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/MoreFilters.feature"
+    ]
+  },
+  {
+    "environment": "sbase_cod_checkout",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutViaCODmethod.feature",
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutViaBankTransfer.feature"
+    ]
+  },
+  {
+    "environment": "sbase_checkout_oceanpayment",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/CheckoutViaOceanPayment.feature",
+      "src/test/resources/features/opencommerce/orders/order/RefundCancelFulfillOrderOceanpayment.feature"
+    ]
+  },
+  {
+    "environment": "sbase_oceanpayment_onepage",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/roller/others/OnePageCheckoutViaOceanpayment.feature"
+    ]
+  },
+  {
+    "environment": "sbase_abandoned",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/AbandonedCheckout3EmailsTimeline.feature"
+    ]
+  },
+  {
+    "environment": "approved_hold_order_plusbase",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/order/OrderOnStoreTemplate.feature"
+    ]
+  },
+  {
+    "environment": "fulfill_plusbase",
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/order/OrderOnStoreMerchant.feature"
+    ]
+  },
+  {
+    "environment": "export_dispute",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/ExportTransaction.feature"
+    ]
+  },
+  {
+    "environment": "sbase_fulfillment_service",
+    "features": [
+      "src/test/resources/features/opencommerce/fulfillment_service/warehouse/MappingProduct.feature",
+      "src/test/resources/features/opencommerce/fulfillment_service/find_products/PurchaseOrder.feature",
+      "src/test/resources/features/opencommerce/fulfillment_service/warehouse/ExportInventoryDetail.feature",
+      "src/test/resources/features/opencommerce/fulfillment_service/warehouse/ProductMove.feature"
+    ]
+  },
+  {
+    "environment": "sbase_claim",
+    "features": [
+      "src/test/resources/features/opencommerce/fulfillment_service/claim/ClaimList.feature",
+      "src/test/resources/features/opencommerce/fulfillment_service/claim/ViewClaimInOrderDetail.feature"
+
+    ]
+  },
+  {
+    "environment": "order_cap",
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/catalog/OrderCap.feature"
+    ]
+  },
+  {
+    "environment": "sbase_update_quotation_list",
+    "features": [
+      "src/test/resources/features/opencommerce/fulfillment_service/find_products/UpdateQuotationList.feature"
+    ]
+  },
+  {
+    "environment": "plbase_claim_list",
+    "features": [
+      "src/test/resources/features/opencommerce/plus_base/claimplusbase/ClaimListPlusBase.feature",
+      "src/test/resources/features/opencommerce/fulfillment_service/find_products/UpdateQuotationList.feature"
+    ]
+  },
+  {
+    "environment": "order_campaign_fulfillment",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/fulfilOrderProd.feature"
+    ]
+  },
+  {
+    "environment": "order_campaign_fulfillment",
+    "run_on": [
+      "staging"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printhub/orders/fulfilOrderStaging.feature"
+    ]
+  },
+  {
+    "environment": "sbase_ETA_Delivery_Time",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/ETADeliveryTimeForSbase.feature"
+    ]
+  },
+  {
+    "environment": "spay_tracking_system",
+    "features": [
+      "src/test/resources/features/opencommerce/orders/order/TrackingSystemForSpay.feature"
+    ]
+  }
+]

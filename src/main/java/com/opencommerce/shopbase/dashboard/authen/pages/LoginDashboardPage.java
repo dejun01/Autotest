@@ -27,7 +27,7 @@ public class LoginDashboardPage extends SBasePageObject {
 
     public void enterEmail(String _email) {
 //        String url = getCurrentUrl();
-        String xPath = "//input[@id='email']";
+        String xPath = "//input[@placeholder='Please input email']";
         waitUntilElementVisible(xPath, 20);
         waitElementToBeVisible(xPath,30);
         waitForElementFinishRendering(xPath);
@@ -47,7 +47,7 @@ public class LoginDashboardPage extends SBasePageObject {
     }
 
     public void enterPassword(String _password) {
-        String xPath = "//input[@id='password']";
+        String xPath = "//input[@placeholder='Please input password']";
         waitUntilElementVisible(xPath, 20);
         waitElementToBeVisible(xPath,30);
         waitForElementFinishRendering(xPath);
@@ -332,7 +332,7 @@ public class LoginDashboardPage extends SBasePageObject {
     }
 
     public void clickBtnSignIn() {
-        String xpath = "//button[child::span[normalize-space()='Sign in'] or child::span[normalize-space()='登录']]";
+        String xpath = "//span[normalize-space()='login']";
         waitElementToBeVisible(xpath);
         clickOnElement(xpath);
     }

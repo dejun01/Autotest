@@ -1,0 +1,32 @@
+[
+  {
+    "environment": "sbase_smoke_balance",
+    "features": [
+      "src/test/resources/features/smoketest/billing/Balance.feature"
+    ]
+  },
+  {
+    "environment": "pbase_smoke_create_campaign",
+    "features": [
+      "src/test/resources/features/smoketest/printbase/CreateCampaign.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_checkout_spay_paypal",
+    "features": [
+      "src/test/resources/features/smoketest/checkout/CheckoutViaPaypalStandard.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_checkout_stripe_paypal",
+    "features": [
+      "src/test/resources/features/smoketest/checkout/CheckoutViaStripe.feature"
+    ]
+  },
+  {
+    "environment": "sbase_smoke_product",
+    "features": [
+      "src/test/resources/features/smoketest/product/Product.feature"
+    ]
+  }
+]

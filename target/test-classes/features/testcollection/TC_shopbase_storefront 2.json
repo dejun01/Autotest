@@ -1,0 +1,324 @@
+[
+  {
+    "environment": "sbase_roller_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/HomePage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_theme1",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/HomePage1.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_cart_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/CartPage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_theme2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage1.feature"
+    ]
+  },
+  {
+    "environment": "manage_blog_post",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/blogs/ManageBlogPost.feature"
+    ]
+  },
+  {
+    "environment": "manage_blog",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/blogs/ManageBlogs.feature"
+    ]
+  },
+  {
+    "environment": "inside_cartgoal",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_CartGoal.feature"
+    ]
+  },
+  {
+    "environment": "inside_featuredproduct",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage3.feature"
+    ]
+  },
+  {
+    "environment": "sbase_manage_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/ManageTheme.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_settings2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/ProductWitdget.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_settings",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Settings.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_video",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_Video.feature"
+    ]
+  },
+  {
+    "environment": "roller_cartgoal",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/Homepage_CartGoal.feature"
+    ]
+  },
+  {
+    "environment": "roller_imagewithtext",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/Homepage_ImageWithText.feature"
+    ]
+  },
+  {
+    "environment": "roller_mega_menu",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/Mega_Menu.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_settings2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/Settings2.feature"
+    ]
+  },
+  {
+    "environment": "pbase_roller_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/FooterPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "pbase_inside_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/FooterPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "inside_imagewithtext",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_ImageWithText.feature"
+    ]
+  },
+  {
+    "environment": "inside_homepage2",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/HomePage-CustomerTestimonial.feature"
+    ]
+  },
+  {
+    "environment": "inside_mega_menu",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Mega_Menu.feature"
+    ]
+  },
+  {
+    "environment": "sbase_inside_newsletter",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_Newsletter.feature"
+    ]
+  },
+  {
+    "environment": "inside_logosection",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/inside/Homepage_LogoSection.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_theme_setting",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller/Settings.feature"
+    ]
+  },
+  {
+    "environment": "sbase_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/RemoveSections.feature"
+    ]
+  },
+  {
+    "environment": "sbase_homepage_bassy",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Bassy/HomePage.feature"
+    ]
+  },
+  {
+    "environment": "sbase_settings_bassy",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Bassy/Settings.feature"
+    ]
+  },
+  {
+    "environment": "sbase_domain",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/domain/Domain.feature"
+    ]
+  },
+  {
+    "environment": "sbase_redirect_url",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/navigation/RedirectURL.feature",
+      "src/test/resources/features/opencommerce/online_store/preferences/LogoBuilder.feature",
+      "src/test/resources/features/opencommerce/online_store/preferences/SitemapRobotTXT.feature",
+      "src/test/resources/features/opencommerce/online_store/navigation/Navigation.feature"
+    ]
+  },
+  {
+    "environment": "sbase_create_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/page/CreatePageShopbase.feature",
+      "src/test/resources/features/opencommerce/settings/account/StaffAcc.feature"
+    ]
+  },
+  {
+    "environment": "sbase_password_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/preferences/Preferences.feature"
+    ]
+  },
+  {
+    "environment": "pbase_contactus_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/page/ContactUsPrintBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_contactus_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/page/ContactUsShopBase.feature"
+    ]
+  },
+  {
+    "environment": "sbase_create_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/page/CreatePageShopbase.feature"
+    ]
+  },
+  {
+    "environment": "pbase_copy_theme",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/PrintbaseCopyTheme.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_banner",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Homepage_Banner.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_imagewithtext",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Homepage_ImageWithText.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_logo",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Homepage_LogoSection.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_newsletter",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Homepage_newsletter.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_videoslider",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Homepage_Video.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_slideshow",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Homepage_Slideshow.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_featureproduct",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Homepage_FeatureProduct.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_ProductPage",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/ProductPage.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_global_setting",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Settings_GlobalSettings.feature"
+    ]
+  },
+  {
+    "environment": "insidev2_cart_page",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Settings_CartPage.feature"
+    ]
+  },
+  {
+    "environment": "create_landingpage",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/LandingPage/LandingPage.feature"
+    ]
+  },
+  {
+    "environment": "landingpage_section",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/LandingPage/LandingPage_Section.feature"
+    ]
+  },
+  {
+    "environment": "landingpage_section1",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/LandingPage/LandingPage_Section1.feature"
+    ]
+  },
+  {
+    "environment": "landingpage_featureproduct",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/LandingPage/LandingPage_FeatureProduct.feature"
+    ]
+  },
+  {
+    "environment": "inside_blog",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/Inside_ver2/Blogs.feature"
+    ]
+  },
+  {
+    "environment": "sbase_roller_blog",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/themes/roller_ver3/Blogs.feature"
+    ]
+  },
+  {
+    "environment": "custom_filter",
+    "features": [
+      "src/test/resources/features/opencommerce/online_store/navigation/CustomFilter.feature"
+    ]
+  }
+]

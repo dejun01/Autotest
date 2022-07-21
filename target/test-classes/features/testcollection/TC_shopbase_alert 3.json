@@ -1,0 +1,27 @@
+[
+  {
+    "environment": "sbase_roller_checkout",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/opencommerce/orders/checkout/CheckoutFlow.feature"
+    ]
+  },
+  {
+    "environment": "print_on_demand_catalog",
+    "features": [
+      "src/test/resources/features/opencommerce/apps/printbase/catalog/Catalog.feature"
+    ],
+    "run_headless": false
+  },
+  {
+    "environment": "sbase_smoke_collection",
+    "run_on": [
+      "prod"
+    ],
+    "features": [
+      "src/test/resources/features/smoketest/product/Collection.feature"
+    ]
+  }
+]

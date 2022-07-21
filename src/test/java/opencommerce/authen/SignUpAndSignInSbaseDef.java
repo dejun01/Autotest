@@ -517,7 +517,6 @@ public class SignUpAndSignInSbaseDef {
         loginStep.enterEmail(userName);
         loginStep.enterPassword(pass);
         loginStep.clickBtnSignIn();
-        loginSteps.verifySelectShopScreen();
     }
 
     @And("verify domain in list shop changed to HongKong domain")

@@ -1,0 +1,9 @@
+product_id,product_handle,name_of_customer,email,rating,title,review,date_of_review,link_of_img_1,link_of_img_2,link_of_img_3,link_of_img_4,link_of_img_5
+,outdoor-waterproof-socks,,email1@gmail.com,5,Name null,Great product quality,2020-09-29 09:33:20 +0000 UTC,,,,,
+,push-up-flower-print-high-waist-bikini-set,Name 2,,5,Email null,Great product quality,2020-09-08 08:21:40 +0000 UTC,,,,,
+,push-up-flower-print-high-waist-bikini-set,Name 2,email2,5,Email invalid,Great product quality,2020-09-08 08:21:40 +0000 UTC,,,,,
+,push-up-flower-print-high-waist-bikini-set,Name 2,email2@gmail.com,,Rating null,Great product quality,2020-09-08 08:21:40 +0000 UTC,,,,,
+,push-up-flower-print-high-waist-bikini-set,Name 2,email2@gmail.com,50,Rating invalid,Great product quality,2020-09-08 08:21:40 +0000 UTC,,,,,
+,push-up-flower-print-high-waist-bikini-set,Name 2,email2@gmail.com,5,Body null,,2020-09-08 08:21:40 +0000 UTC,,,,,
+,push-up-flower-print-high-waist-bikini-set,Name 2,email2@gmail.com,5,Date null,Great product quality,,,,,,
+,push-up-flower-print-high-waist-bikini-set,Name 2,email2@gmail.com,5,Review valid,Great product quality,2020-09-08 08:21:40 +0000 UTC,,,,,

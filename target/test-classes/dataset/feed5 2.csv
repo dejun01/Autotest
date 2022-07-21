@@ -1,0 +1,4 @@
+id	availability	condition	description	image_link	link	title	price	gtin	brand	additional_image_link	age_group	color	gender	item_group_id	google_product_category	material	pattern	product_type	sale_price	shipping	shipping_weight	size	custom_label_0	custom_label_1	custom_label_2	custom_label_3	custom_label_4	identifier_exists	ads_label	ads_grouping	shipping_label	product_identifier	size_system	size_type	unit_pricing_measure	unit_pricing_base_measure	pricing_measure	pricing_base_measure	vendor
+
+1000000012345579	in stock	new	"
+This is description's product"	https://stag-img.btdmp.com/10072/10072772/products/16178638137980e63d6c.png	https://au-feed-sync-gmc.stag.myshopbase.net/products/this-is-product-title?variant=1000000012345579	This is product title	12 USD	9830582375097	SamSam			Black		1000000005003612							0 lb	S						true											
