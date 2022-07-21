@@ -511,7 +511,7 @@ public class SignUpAndSignInSbaseDef {
         loginSteps.verifyShowElementsOnSignInPage();
     }
 
-    @And("^login to dashboard")
+    @And("^login to P3 dashboard")
     public void loginToDashboard() {
         loginSteps.openSignInPage();
         loginStep.enterEmail(userName);
